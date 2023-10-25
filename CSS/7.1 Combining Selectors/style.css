@@ -15,3 +15,7 @@ h1, h2 {
 li.done {
     color: seagreen;
 }
+
+ul > p {
+    font-size: 0.5rem;
+}
