@@ -5,16 +5,19 @@
 }
 
 .circle {
+    border-radius: 50%;
     height: 5rem;
     width: 5rem;
     background-color: red;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
-div.middle {
-    position: relative;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+.middle {
+    position: absolute;
+    right: 25px;
+    top: 25px;
 }
 
