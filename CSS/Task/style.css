@@ -1,0 +1,23 @@
+.sqr {
+    background-color: green;
+    height: 15rem;
+    width: 22rem;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    background-color: red;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.middle {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
