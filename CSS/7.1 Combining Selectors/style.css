@@ -1,22 +1,7 @@
 /* Write your code here: */
-h1, h2 {
-    color: purple;
-}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #000000;
 
-.box > p {
-    color: red;
-}
-
-
-.box li {
-    color: blue;
-}
-
-li.done {
-    color: seagreen;
-    
-}
-
-ul > p {
-    font-size: 0.5rem;
 }
