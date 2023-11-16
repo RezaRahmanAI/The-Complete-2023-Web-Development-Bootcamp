@@ -32,6 +32,22 @@ img {
   width: 80%;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.btn{
+  height: 5rem;
+  width: 15rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: red;
+  font-family: 'Indie Flower', cursive;
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
