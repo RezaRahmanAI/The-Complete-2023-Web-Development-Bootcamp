@@ -22,3 +22,23 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1
 var randomImg2 = './images/dice' + randomNumber2 + '.png'
 var img2 = document.querySelectorAll("img")[1]
 img2.setAttribute('src', randomImg2)
+
+
+
+if(randomImg1> randomImg2){
+    document.querySelector("h1").innerHTML = "Player 1 Won"
+}
+if(randomImg1< randomImg2){
+    document.querySelector("h1").innerHTML = "Player 2 Won"
+}
+
+if(randomImg1 === randomImg2){
+    document.querySelector("h1").innerHTML = "Match tied"
+}
+
+
+var reloadButton = document.getElementById('reloadButton')
+
+reloadButton.addEventListener('click', function () {
+    location.reload()
+})
