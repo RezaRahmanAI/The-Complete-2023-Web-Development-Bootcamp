@@ -9,13 +9,14 @@ for (var i = 0; i < numberOfDrum; i++) {
     var buttonInnerHtml = this.innerHTML
 
     makeSound(buttonInnerHtml)
-
+    buttonAnimation(buttonInnerHtml)
   })
 }
 
 document.addEventListener('keypress', function (event) {
-var keyKeys = event.key.toLowerCase()
-makeSound(keyKeys)
+  var keyKeys = event.key.toLowerCase()
+  makeSound(keyKeys)
+  buttonAnimation(keyKeys)
 })
 
 function makeSound(key) {
@@ -50,9 +51,18 @@ function makeSound(key) {
       break
 
     default:
-      console.log(buttonInnerHtml)
+      console.log('Unknown Button Pressed.')
       break
   }
+}
+
+function buttonAnimation(currentKeys) {
+  var button = document.querySelector('.'+ currentKeys)
+  button.classList.add('pressed')
+
+  setTimeout(() => {
+    button.classList.remove('pressed')
+  })
 }
 
 // function add(num1, num2) {
