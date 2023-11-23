@@ -1,10 +1,9 @@
-var n = Math.random();
-console.log(n);
+var n = Math.random()
+console.log(n)
 
-var x = n * 6;
-x = Math.floor(x) + 1;
-console.log(x);
-
+var x = n * 6
+x = Math.floor(x) + 1
+console.log(x)
 
 // var names = ["Alice", "Bob", "Charlie", "David", "Eva", "Frank"];
 // var i = Math.random();
@@ -17,13 +16,11 @@ console.log(x);
 
 // namePicker(names)
 
-
-var names = ["Alice", "Bob", "Charlie", "David", "Eva", "Frank"];
+var names = ['Alice', 'Bob', 'Charlie', 'David', 'Eva', 'Frank']
 
 function namePicker(names) {
-    var i = Math.floor(Math.random() * names.length);
-    console.log(names[i]);
+  var i = Math.floor(Math.random() * names.length)
+  console.log(names[i])
 }
 
-namePicker(names);
-
+namePicker(names)
